@@ -9,7 +9,7 @@ const Login = () => {
         {isAuthenticated?(
             <button onClick={() =>logout()}>Logout</button>
         ):(
-            <button onClick={() => loginWithRedirect()}>Log In</button>
+            <button onClick={() => loginWithRedirect()}>Log In dgdgjwsg</button>
 
         )}
 
