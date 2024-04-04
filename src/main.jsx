@@ -12,17 +12,17 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate persistor={persistor}>
-      <Auth0Provider
+      {/* <Auth0Provider
     domain="dev-mjaxbbxegq31vie4.us.auth0.com"
     clientId="u3bumYKeg3GQCdFpGlWvSXSqe0gqPVha"
     authorizationParams={{
       redirect_uri: window.location.origin
     }}
-  >
+  > */}
     
         <App />
 
-  </Auth0Provider>
+  {/* </Auth0Provider> */}
       </PersistGate>
     </Provider>
   </React.StrictMode>

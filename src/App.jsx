@@ -5,9 +5,9 @@ import './App.css'
 import { Counter } from './features/counter/Counter'
 import Todo from './features/todo/Todo'
 import Login from './features/auth/Login'
-
+import SignIn from './features/GoogleSignin/SignIn'
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
   //   <>
@@ -27,8 +27,8 @@ function App() {
 
 
 
-  
-  <Login/>
+  <SignIn/>
+  // <Login/>
         // <Counter/> 
         // <Todo/>
 
