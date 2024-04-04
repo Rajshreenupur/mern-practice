@@ -4,8 +4,8 @@ import { signInWithPopup } from 'firebase/auth'
 import Home from './Home'
 
 const SignIn = () => {
-    // const [value,setValue] = useState('')
-    // const [value1,setValue1] = useState('')
+    const [value,setValue] = useState('')
+    const [value1,setValue1] = useState('')
     const [value2,setValue2] = useState('')
 
     // const handleClick =()=>{
@@ -63,7 +63,6 @@ const SignIn = () => {
 
 {value2?<Home/>:
         <button onClick={handleClick2}>Signin with Github </button>
-
   }
 
         </div>
