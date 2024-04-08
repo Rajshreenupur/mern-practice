@@ -1,0 +1,67 @@
+https://docs.google.com/document/d/1k9rKAF9c4dVO9GpqkI3Sc96E3TcUwNQXu33qrHc7wEo/edit?usp=sharing
+
+
+
+MERN folder structure with rtk -----
+
+
+Below is a folder structure for a MERN (MongoDB, Express.js, React.js, Node.js) project with Redux Toolkit (RTK) integrated:
+
+project-root/
+├── client/               # Frontend folder
+│   ├── public/
+│   │   └── index.html    # HTML template
+│   ├── src/
+│   │   ├── assets/       # Images, fonts, etc.
+│   │   ├── components/   # Reusable UI components
+│   │   ├── pages/        # React components for each page
+│   │   ├── store/        # Redux store setup
+│   │   │   ├── slices/   # Redux slices (reducers and actions)
+│   │   │   └── store.js  # Redux store configuration
+│   │   ├── App.js        # Main React component
+│   │   └── index.js      # Entry point for React app
+│   ├── package.json      # Frontend dependencies and scripts
+│   └── ...
+├── server/               # Backend folder
+│   ├── config/          # Configuration files (e.g., database)
+│   ├── controllers/     # Request handlers (controllers)
+│   ├── models/          # Mongoose models
+│   ├── routes/          # Express routes
+│   ├── middleware/      # Custom middleware
+│   ├── app.js           # Express application setup
+│   └── server.js        # Entry point for Node.js server
+├── .env                 # Environment variables
+├── package.json         # Backend dependencies and scripts
+└── ...
+
+
+Explanation of each folder and file:
+
+client/: Contains the frontend code written in React.js.
+
+public/: Contains the HTML template (index.html) where the React app is mounted.
+src/: Contains the source code for the React app.
+assets/: Contains static assets such as images, fonts, etc.
+components/: Contains reusable UI components used across the app.
+pages/: Contains React components for each page of the app.
+store/: Contains Redux store setup.
+slices/: Contains Redux slices, which include reducers and actions managed by Redux Toolkit.
+store.js: Configures and exports the Redux store.
+App.js: Main React component where routes and global UI components are defined.
+index.js: Entry point for the React app, where it is mounted onto the HTML template.
+package.json: Contains frontend dependencies and scripts.
+server/: Contains the backend code written in Node.js and Express.js.
+
+config/: Contains configuration files, such as database configuration.
+controllers/: Contains request handlers (controllers) for different routes.
+models/: Contains Mongoose models for MongoDB.
+routes/: Contains Express routes for different API endpoints.
+middleware/: Contains custom middleware functions.
+app.js: Sets up the Express application, including middleware and routes.
+server.js: Entry point for the Node.js server.
+.env: Environment variables file.
+
+package.json: Contains backend dependencies and scripts.
+
+This folder structure separates frontend and backend code, making it easier to manage and scale the project. Redux Toolkit (RTK) is integrated into the frontend for state management, providing a centralized store with Redux slices for managing application state.
+
