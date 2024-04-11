@@ -15,8 +15,10 @@ router.post("/login", signin);
 
 
 
-router.get("/hiddencontent", verifyToken, function (req, res) {
-  if (!user) {
+router.get("/hiddencontent", verifyToken,  function (req, res) {
+
+
+  if (!req.user) {
     res.status(403)
       .send({
         message: "Invalid JWT token"
@@ -29,10 +31,14 @@ router.get("/hiddencontent", verifyToken, function (req, res) {
       });
   } else {
     res.status(403)
-      .send({
+      .send(
+        {
         message: "Unauthorised access"
       });
   }
+
+
+
 });
 
 module.exports = router;

@@ -3,8 +3,6 @@ var bcrypt = require("bcrypt");
 var User = require("../models/user");
 
 
-
-
 exports.signup = async (req, res) => {
     try{
 
@@ -43,7 +41,7 @@ exports.signin = async (req, res) => {
         return res.status(401).send({ accessToken: null, message: "Invalid Password!" });
       }
   
-      const token = jwt.sign({ id: user.id }, process.env.API_SECRET || 'fallback_secret_key', { expiresIn: 86400 });
+      const token = jwt.sign({ id: user.id,email:user.email }, process.env.API_SECRET || 'fallback_secret_key', { expiresIn: 86400 });
   
       res.status(200).send({
         user: {

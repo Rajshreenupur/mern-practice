@@ -1,7 +1,6 @@
 https://docs.google.com/document/d/1k9rKAF9c4dVO9GpqkI3Sc96E3TcUwNQXu33qrHc7wEo/edit?usp=sharing
 
 
-
 MERN folder structure with rtk -----
 
 
@@ -64,4 +63,42 @@ server.js: Entry point for the Node.js server.
 package.json: Contains backend dependencies and scripts.
 
 This folder structure separates frontend and backend code, making it easier to manage and scale the project. Redux Toolkit (RTK) is integrated into the frontend for state management, providing a centralized store with Redux slices for managing application state.
+
+
+-------------------------------------------------------------FOR FRONTEND------------------------------------------------------------------
+
+
+If you want to learn or develop MERN Stack project,You should have basic understanding of JAVASCRIPT. 
+
+To learn JAVASCRIPT,I refer one youtube playlist(BELOW) which is to the point ,TO the point I mean you have  good understanding and practice of ---- FUNCTION,ARROW FUNCTION,HIGHER ORDER FUNCTION AND CALLBACKS,ARRAY,ARRAY METHODS(.map),ARRAY HIGHER ORDER FUNCTION,PROMISES,ASYNC-AWAIT FUNCTION.
+
+All the above mentioned topic is must because without this you can't understand the code flow.
+
+
+
+HERE is the playlist link ---  https://youtube.com/playlist?list=PLinedj3B30sDFRdgPYvjnBs2JsDdHPIMv&si=hc-j2g_hH9PQcaAs
+
+And you can practice js from hackerrank or locally --- https://www.hackerrank.com/domains/tutorials/10-days-of-javascript
+
+
+
+NOW For react js ----
+
+To learn REACT, You have good understanding and practice of ----  HOOKS(useState,useEffect),PROPS,PROPS-DRILLING,USECONTEXT,REDUX,RTK
+
+HERE is the playlist link to learn react--- https://youtube.com/playlist?list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&si=rCgKvSyRXZLdD8FH
+
+
+-------------------------------------------------------------FOR BACKEND------------------------------------------------------------------
+
+
+
+NOW For node js ,express js,postman and mongo db ----
+
+To learn Node js, You have good understanding and practice of ---- CRUD Operation, Authentication, Authorization, JWT Auth, 
+
+HERE is the playlist link to learn node (1-26)--- https://youtube.com/playlist?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&si=rdb6dExq_XFDtZsP
+
+
+
 
