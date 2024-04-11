@@ -1,7 +1,7 @@
 https://docs.google.com/document/d/1k9rKAF9c4dVO9GpqkI3Sc96E3TcUwNQXu33qrHc7wEo/edit?usp=sharing
 
 
-MERN folder structure with rtk -----
+#####MERN folder structure with rtk -----
 
 
 Below is a folder structure for a MERN (MongoDB, Express.js, React.js, Node.js) project with Redux Toolkit (RTK) integrated:
@@ -38,26 +38,52 @@ Explanation of each folder and file:
 
 client/: Contains the frontend code written in React.js.
 
+
+
 public/: Contains the HTML template (index.html) where the React app is mounted.
+
 src/: Contains the source code for the React app.
+
 assets/: Contains static assets such as images, fonts, etc.
+
 components/: Contains reusable UI components used across the app.
+
 pages/: Contains React components for each page of the app.
+
 store/: Contains Redux store setup.
+
 slices/: Contains Redux slices, which include reducers and actions managed by Redux Toolkit.
+
 store.js: Configures and exports the Redux store.
+
 App.js: Main React component where routes and global UI components are defined.
+
 index.js: Entry point for the React app, where it is mounted onto the HTML template.
+
 package.json: Contains frontend dependencies and scripts.
+
+
+
+
+
 server/: Contains the backend code written in Node.js and Express.js.
 
+
+
 config/: Contains configuration files, such as database configuration.
+
 controllers/: Contains request handlers (controllers) for different routes.
+
 models/: Contains Mongoose models for MongoDB.
+
 routes/: Contains Express routes for different API endpoints.
+
 middleware/: Contains custom middleware functions.
+
 app.js: Sets up the Express application, including middleware and routes.
+
 server.js: Entry point for the Node.js server.
+
 .env: Environment variables file.
 
 package.json: Contains backend dependencies and scripts.
@@ -65,12 +91,20 @@ package.json: Contains backend dependencies and scripts.
 This folder structure separates frontend and backend code, making it easier to manage and scale the project. Redux Toolkit (RTK) is integrated into the frontend for state management, providing a centralized store with Redux slices for managing application state.
 
 
--------------------------------------------------------------FOR FRONTEND------------------------------------------------------------------
+--------------------------------------FRONTEND----------------------------------------
 
 
 If you want to learn or develop MERN Stack project,You should have basic understanding of JAVASCRIPT. 
 
-To learn JAVASCRIPT,I refer one youtube playlist(BELOW) which is to the point ,TO the point I mean you have  good understanding and practice of ---- FUNCTION,ARROW FUNCTION,HIGHER ORDER FUNCTION AND CALLBACKS,ARRAY,ARRAY METHODS(.map),ARRAY HIGHER ORDER FUNCTION,PROMISES,ASYNC-AWAIT FUNCTION.
+To learn JAVASCRIPT,I refer one youtube playlist(BELOW) which is to the point ,To the point I mean you have  good understanding and practice of ---- 
+FUNCTION,
+ARROW FUNCTION,
+HIGHER ORDER FUNCTION AND CALLBACKS,
+ARRAY,
+ARRAY METHODS(.map),
+ARRAY HIGHER ORDER FUNCTION,
+PROMISES,
+ASYNC-AWAIT FUNCTION.
 
 All the above mentioned topic is must because without this you can't understand the code flow.
 
@@ -84,20 +118,31 @@ And you can practice js from hackerrank or locally --- https://www.hackerrank.co
 
 NOW For react js ----
 
-To learn REACT, You have good understanding and practice of ----  HOOKS(useState,useEffect),PROPS,PROPS-DRILLING,USECONTEXT,REDUX,RTK
+To learn REACT, You have good understanding and practice of ----  HOOKS(useState,useEffect),
+PROPS,
+PROPS-DRILLING,
+USECONTEXT,
+REDUX,
+RTK
 
 HERE is the playlist link to learn react--- https://youtube.com/playlist?list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&si=rCgKvSyRXZLdD8FH
 
 
--------------------------------------------------------------FOR BACKEND------------------------------------------------------------------
+--------------------------------------BACKEND----------------------------------------
 
 
 
-NOW For node js ,express js,postman and mongo db ----
 
-To learn Node js, You have good understanding and practice of ---- CRUD Operation, Authentication, Authorization, JWT Auth, 
+For node js ,express js,postman and mongo db ----
 
-HERE is the playlist link to learn node (1-26)--- https://youtube.com/playlist?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&si=rdb6dExq_XFDtZsP
+To learn Node js, You have good understanding and practice of ---- 
+CRUD Operation, 
+Authentication, 
+Authorization, 
+JWT Auth
+
+HERE is the playlist link to learn node,express,mongo.atlas (1-26)--- https://youtube.com/playlist?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&si=rdb6dExq_XFDtZsP
+
 
 
 
